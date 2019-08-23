@@ -569,7 +569,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   min-height: 250px;
-  background: #151513;
+  background: black;
   margin-top: 5em;
   padding: 2em 0 1em 0; }
   footer .social_icons {
@@ -597,9 +597,7 @@ footer {
       text-decoration: none;
       transform: translateY(-1px); }
   footer a {
-    color: #ffffff;
-    padding-left: 5px;
-    padding-right: 5px; }
+    color: #ffffff; }
   footer .footer_container {
     line-height: 2em;
     color: white;
@@ -627,8 +625,8 @@ footer {
       footer .footer_container > *:nth-child(1n + 1) {
         margin-left: 0; }
     footer .footer_container a {
-      text-decoration: none;
-      border-bottom: 1px dotted; }
+      font-weight: 600;
+      text-decoration: none; }
     footer .footer_container span {
       padding: 1em 0; }
     footer .footer_container .made_with {
