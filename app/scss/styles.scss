@@ -9,16 +9,16 @@ body {
 	overflow: auto;
 	font-family: 'Roboto', sans-serif;
 	min-height: 100vh;
-	background: #f2994a; /* fallback for old browsers */
+	background: black; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to top,
-		#f2c94c,
-		#f2994a
+		black,
+		black
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to top,
-		#f2c94c,
-		#f2994a
+		black,
+		black
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -33,16 +33,12 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background: #f2994a; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#f2c94c,
-		#f2994a
-	); /* Chrome 10-25, Safari 5.1-6 */
+	background: black;
+	
 	background: linear-gradient(
 		to top,
-		#f2c94c,
-		#f2994a
+		black,
+		black
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	.loader_wrap {
 		text-align: center;
@@ -89,7 +85,7 @@ body {
 		@include flexgrid(2, 1em);
 	}
 	@include large_screen {
-		@include flexgrid(2, 1em);
+		@include flexgrid(4, 1em);
 	}
 }
 
